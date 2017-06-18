@@ -7,7 +7,7 @@ output: "html_document"
 
 # README
 
-The solution for the project includes a single script [run_analysis.R] (run_analysis.R) that will analyze the [Human Activity Recognition] (https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) dataset and create a tidy output file [activity_subject_mean.txt] (activity_subject_mean.txt) containing the average of each variable for each activity and each subject.
+The solution for the project includes a single script [run_analysis.R](run_analysis.R) that will analyze the [Human Activity Recognition](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) dataset and create a tidy output file [activity_subject_mean.txt](activity_subject_mean.txt) containing the average of each variable for each activity and each subject.
 
 ## Script Overview
 
