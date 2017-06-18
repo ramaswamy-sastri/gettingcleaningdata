@@ -48,9 +48,9 @@ test.subject.df <- read.table(test.subject.file, header = FALSE, colClasses = "i
 
 message("loading train set: data, labels, subject")
 trainfolder <- paste0(datarootfolder,"train/")
-train.data.file <- paste0(testfolder, "X_test.txt")
-train.labels.file <- paste0(testfolder, "y_test.txt")
-train.subject.file <- paste0(testfolder, "subject_test.txt")
+train.data.file <- paste0(trainfolder, "X_train.txt")
+train.labels.file <- paste0(trainfolder, "y_train.txt")
+train.subject.file <- paste0(trainfolder, "subject_train.txt")
 
 train.data.df <- read.table(train.data.file, header = FALSE, colClasses = "numeric")
 train.labels.df <- read.table(train.labels.file, header = FALSE, colClasses = "numeric")
